@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Inter;
+  src: url("/src/assets/fonts/Inter-Regular.woff2");
+}
+@font-face {
+  font-family: Inter Bold;
+  src: url("/src/assets/fonts/Inter-Bold.woff2");
+}
+@font-face {
+  font-family: Inter Light;
+  src: url("/src/assets/fonts/Inter-Light.woff2");
+}
+@font-face {
+  font-family: Manrope;
+  src: url("/src/assets/fonts/Manrope-Regular.woff2");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+}
+
+html,
+body {
+  max-width: 100vw;
+  background: var(--fefefe, #fefefe);
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.scroll {
+  overflow: visible;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}

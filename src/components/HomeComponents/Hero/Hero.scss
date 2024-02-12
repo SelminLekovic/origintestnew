@@ -1,0 +1,69 @@
+.homeHero {
+  background: url("../../../assets/images/placeholder/background.webp");
+  width: 100%;
+  background-color: #000;
+  height: 100vh;
+  padding-bottom: 50px;
+  .ogLogo {
+    width: 66px;
+    height: 66px;
+  }
+  .homeHeroFlex {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-inline: 50px;
+    justify-content: flex-end;
+    gap: 30px;
+    .logo {
+      left: 50px;
+      width: calc(100% - 100px);
+      position: absolute;
+      top: 60%;
+    }
+
+    .innerContent {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: flex-end;
+    }
+    .buttonText {
+      display: flex;
+      position: absolute;
+      top: 80%;
+      left: 30%;
+      flex-direction: column;
+      gap: 24px;
+      .innerText {
+        color: var(--Dusty-Gray, #858484);
+
+        /* 1920px/Paragraph */
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29px; /* 161.111% */
+        width: 362px;
+      }
+    }
+    .timeWrapper {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      width: 362px;
+      justify-content: flex-end;
+    }
+    .time {
+      color: #fff;
+      text-align: center;
+      font-family: Manrope;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 25px; /* 125% */
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,99 @@
+.largeHeading,
+.largeHeadingHovered {
+  color: transparent;
+  background-color: #d9d9d9;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 200%;
+  background-position: 100% 80%;
+  transition: background-position 0.5s ease;
+  font-family: Inter;
+  font-size: 120px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 400;
+  line-height: 130px;
+  letter-spacing: -11.5px;
+  text-transform: uppercase;
+  position: relative;
+}
+.headingWrapper {
+  position: relative;
+}
+.largeHeadingHovered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  color: #1b1b1b !important;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+@media screen and (min-width: 360px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 43px;
+    line-height: 53px; /* 123.256% */
+    letter-spacing: -3.5px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 58px;
+    line-height: 68px; /* 117.241% */
+    letter-spacing: -4.5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 62px;
+    line-height: 73px; /* 117.742% */
+    letter-spacing: -5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 75px;
+    line-height: 85px; /* 113.333% */
+    letter-spacing: -6px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 78px;
+    line-height: 87px; /* 111.538% */
+    letter-spacing: -6.5px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 90px;
+    line-height: 100px; /* 111.111% */
+    letter-spacing: -8.5px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 100px;
+    line-height: 110px; /* 110% */
+    letter-spacing: -8.5px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .largeHeading,
+  .largeHeadingHovered {
+    font-size: 120px;
+    line-height: 130px; /* 108.333% */
+    letter-spacing: -11.5px;
+  }
+}

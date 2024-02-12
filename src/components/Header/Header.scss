@@ -1,0 +1,28 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  p {
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  div{
+    width: 188px;
+  }
+  img{
+    cursor: pointer;
+  }
+}
